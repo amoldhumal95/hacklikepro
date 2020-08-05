@@ -423,6 +423,11 @@ z-index: -1;
 #projects .project-item:hover .project-img img{
     transform: scale(1.2);
 }
+
+#project .section-title{
+    text-align: left;
+    padding-left: 5%;
+}
 /* End project section*/
 
 /* About Section*/
@@ -480,6 +485,10 @@ z-index: -1;
     border: 7px solid crimson;
     z-index: -1;
 }
+#about .section-title{
+    text-align: left;
+    padding-left: 5%;
+}
 /*End About Section*/
 
 /*Contact info*/
@@ -531,7 +540,10 @@ z-index: -1;
 #contact .contact-item .icon img{
     object-fit: cover;
 }
-
+#contact .section-title{
+    text-align: left;
+    padding-left: 5%;
+}
 /* End Contact info*/
 
 

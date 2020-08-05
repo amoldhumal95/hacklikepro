@@ -626,6 +626,8 @@ z-index: -1;
     #projects{text-align: left;}
     #about{text-align: left;}
     #contact{text-align: left;}
+    #footer{text-align: left;}
+    #hero{text-align: left;}
 }
 
 /*media query for tablet*/

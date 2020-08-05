@@ -240,7 +240,7 @@ z-index: -1;
 #hero h1{
     display:block ;
     width: fit-content;
-    font-size: 4rem;
+    font-size: 3rem;
     position: relative;
     color: transparent;
     animation: text_reveal .5s ease forwards;
@@ -340,10 +340,6 @@ z-index: -1;
     color: white;
     text-align: left;
 }
-#services .section-title{
-    text-align: left;
-    padding-left: 5%;
-}
 
 
 
@@ -424,10 +420,7 @@ z-index: -1;
     transform: scale(1.2);
 }
 
-#project .section-title{
-    text-align: left;
-    padding-left: 5%;
-}
+
 /* End project section*/
 
 /* About Section*/
@@ -485,10 +478,7 @@ z-index: -1;
     border: 7px solid crimson;
     z-index: -1;
 }
-#about .section-title{
-    text-align: left;
-    padding-left: 5%;
-}
+
 /*End About Section*/
 
 /*Contact info*/
@@ -540,10 +530,7 @@ z-index: -1;
 #contact .contact-item .icon img{
     object-fit: cover;
 }
-#contact .section-title{
-    text-align: left;
-    padding-left: 5%;
-}
+
 /* End Contact info*/
 
 
@@ -614,10 +601,27 @@ z-index: -1;
 }
 /*end keyframes*/
 
-
+@media only screen and (min-width:360px){
+    #services .section-title{
+        text-align: left;
+        padding-left: 5%;
+    }
+    #project .section-title{
+        text-align: left;
+        padding-left: 5%;
+    }
+    #about .section-title{
+        text-align: left;
+        padding-left: 5%;
+    }
+    #contact .section-title{
+        text-align: left;
+        padding-left: 5%;
+    }
+}
 
 /*media query for tablet*/
-@media only screen and (min-width:768px){
+@media only screen and (min-width:712px){
     .cta {
         font-size: 2.5rem;
         padding: 20px 60px;

@@ -216,7 +216,7 @@ z-index: -1;
 
 /* Hero Section */
 #hero{
-    background-image: url(./img/hero3.jpg);
+    background-color:black;
     background-size: cover;
     background-position: top center;
     position: relative;

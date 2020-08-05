@@ -605,19 +605,27 @@ z-index: -1;
     #services .section-title{
         text-align: left;
         padding-left: 5%;
+        font-size: 3rem;
     }
-    #project .section-title{
+    #projects .section-title{
+        font-size: 3rem;
         text-align: left;
         padding-left: 5%;
     }
     #about .section-title{
+        font-size: 3rem;
         text-align: left;
         padding-left: 5%;
     }
     #contact .section-title{
+        font-size: 3rem;
         text-align: left;
         padding-left: 5%;
     }
+    #services{text-align: left;}
+    #projects{text-align: left;}
+    #about{text-align: left;}
+    #contact{text-align: left;}
 }
 
 /*media query for tablet*/

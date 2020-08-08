@@ -216,7 +216,7 @@ z-index: -1;
 
 /* Hero Section */
 #hero{
-    background-color:black;
+    background-color: #000;
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -601,7 +601,7 @@ z-index: -1;
 }
 /*end keyframes*/
 
-@media only screen and (max-width:360px){
+@media only screen and (max-width:420px){
     #services .section-title{
         text-align: left;
         padding-left: 5%;
@@ -626,8 +626,6 @@ z-index: -1;
     #projects{text-align: left;}
     #about{text-align: left;}
     #contact{text-align: left;}
-    #footer{text-align: left;}
-    #hero{text-align: left;}
 }
 
 /*media query for tablet*/
